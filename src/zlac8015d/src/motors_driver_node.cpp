@@ -1,4 +1,5 @@
 #include <memory>
+#include <chrono>
 
 #include "rclcpp/rclcpp.hpp"
 // #include "std_msgs/msg/string.hpp"
@@ -8,9 +9,12 @@
 #include <vector>
 
 using std::placeholders::_1;
+using namespace std::chrono_literals;
 
 #define CAN_OUT_TOPIC "/CAN/can0/send"
 #define CAN_IN_TOPIC "/CAN/can0/receive"
+
+#define VELOCITY_CONTROL_TOPIC "/wheels_control"
 
 #define NODE_ID 1
 
@@ -24,11 +28,11 @@ class MotorsDriverNode : public rclcpp::Node
       // "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
 
       wheels_velocities_input = this->create_subscription<overlord100_msgs::msg::WheelsData>(
-      "topic", 10, std::bind(&MotorsDriverNode::topic_callback, this, _1));
+      VELOCITY_CONTROL_TOPIC, 10, std::bind(&MotorsDriverNode::topic_callback, this, _1));
 
       can_output = this->create_publisher<can_msgs::msg::Frame>(CAN_OUT_TOPIC, 10);
 
-      syncronous_velocity_control_init();
+      this->create_wall_timer(500ms, std::bind(&syncronous_velocity_control_init, this));
     }
 
   private:
