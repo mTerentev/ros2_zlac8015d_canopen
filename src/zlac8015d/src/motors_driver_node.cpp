@@ -32,7 +32,10 @@ class MotorsDriverNode : public rclcpp::Node
 
       can_output = this->create_publisher<can_msgs::msg::Frame>(CAN_OUT_TOPIC, 10);
 
-      timer_ = this->create_wall_timer(500ms, std::bind(&MotorsDriverNode::syncronous_velocity_control_init, this));
+
+      syncronous_velocity_control_init();
+
+      // timer_ = this->create_wall_timer(500ms, std::bind(&MotorsDriverNode::syncronous_velocity_control_init, this));
     }
 
   private:

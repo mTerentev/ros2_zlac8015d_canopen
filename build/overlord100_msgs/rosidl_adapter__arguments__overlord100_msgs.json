@@ -1,6 +1,0 @@
-{
-  "package_name": "overlord100_msgs",
-  "non_idl_tuples": [
-    "/home/mike/ros2_can_test/src/overlord100_msgs:msg/WheelsData.msg"
-  ]
-}

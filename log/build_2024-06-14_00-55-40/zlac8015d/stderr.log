@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:24 (amend_target_dependencies):
-  Unknown CMake command "amend_target_dependencies".
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

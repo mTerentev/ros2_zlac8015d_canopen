@@ -1,6 +1,0 @@
-Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake /home/mike/ros2_can_test/src/can_msgs -DCMAKE_INSTALL_PREFIX=/home/mike/ros2_can_test/install/can_msgs
-Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake /home/mike/ros2_can_test/src/can_msgs -DCMAKE_INSTALL_PREFIX=/home/mike/ros2_can_test/install/can_msgs
-Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/can_msgs -- -j4 -l4
-Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/can_msgs -- -j4 -l4
-Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/can_msgs
-Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/can_msgs

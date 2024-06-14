@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/motors_driver_node.dir/src/motors_driver_node.cpp.o[0m
-[01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:[m[K In constructor ‘[01m[KMotorsDriverNode::MotorsDriverNode()[m[K’:
-[01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:35:49:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&MotorsDriverNode::syncronous_velocity_control_init[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
-   35 |       this->create_wall_timer(500ms, std::bind(&[01;31m[Ksyncronous_velocity_control_init[m[K, this));
-      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/motors_driver_node.dir/build.make:76: CMakeFiles/motors_driver_node.dir/src/motors_driver_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_driver_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
