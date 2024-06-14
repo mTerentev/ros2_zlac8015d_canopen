@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.000237] (can_msgs) JobQueued: {'identifier': 'can_msgs', 'dependencies': OrderedDict()}
+[0.000388] (overlord100_msgs) JobQueued: {'identifier': 'overlord100_msgs', 'dependencies': OrderedDict()}
+[0.000468] (ros2socketcan_bridge) JobQueued: {'identifier': 'ros2socketcan_bridge', 'dependencies': OrderedDict([('can_msgs', '/home/mike/ros2_can_test/install/can_msgs')])}
+[0.000620] (zlac8015d) JobQueued: {'identifier': 'zlac8015d', 'dependencies': OrderedDict([('can_msgs', '/home/mike/ros2_can_test/install/can_msgs')])}
+[0.000792] (can_msgs) JobStarted: {'identifier': 'can_msgs'}
+[0.098851] (-) TimerEvent: {}
+[0.141377] (overlord100_msgs) JobStarted: {'identifier': 'overlord100_msgs'}
+[0.199166] (-) TimerEvent: {}
+[0.299954] (-) TimerEvent: {}
+[0.362772] (can_msgs) JobProgress: {'identifier': 'can_msgs', 'progress': 'cmake'}
+[0.364622] (can_msgs) JobProgress: {'identifier': 'can_msgs', 'progress': 'build'}
+[0.366306] (can_msgs) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--build', '/home/mike/ros2_can_test/build/can_msgs', '--', '-j4', '-l4'], 'cwd': '/home/mike/ros2_can_test/build/can_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/overlord100_msgs/lib:/home/mike/ros2_can_test/install/can_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/can_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble')]), 'shell': False}
+[0.376091] (overlord100_msgs) JobProgress: {'identifier': 'overlord100_msgs', 'progress': 'cmake'}
+[0.376211] (overlord100_msgs) JobProgress: {'identifier': 'overlord100_msgs', 'progress': 'build'}
+[0.376269] (overlord100_msgs) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--build', '/home/mike/ros2_can_test/build/overlord100_msgs', '--', '-j4', '-l4'], 'cwd': '/home/mike/ros2_can_test/build/overlord100_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/overlord100_msgs/lib:/home/mike/ros2_can_test/install/can_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/overlord100_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble')]), 'shell': False}
+[0.400074] (-) TimerEvent: {}
+[0.500499] (-) TimerEvent: {}
+[0.546743] (overlord100_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_overlord100_msgs\n'}
+[0.552586] (can_msgs) StdoutLine: {'line': b'[  9%] Built target can_msgs__rosidl_generator_c\n'}
+[0.558145] (can_msgs) StdoutLine: {'line': b'[ 12%] Built target can_msgs__cpp\n'}
+[0.576038] (overlord100_msgs) StdoutLine: {'line': b'[  9%] Built target overlord100_msgs__rosidl_generator_c\n'}
+[0.579242] (overlord100_msgs) StdoutLine: {'line': b'[ 12%] Built target overlord100_msgs__cpp\n'}
+[0.596765] (can_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_can_msgs\n'}
+[0.600598] (-) TimerEvent: {}
+[0.611835] (can_msgs) StdoutLine: {'line': b'[ 22%] Built target can_msgs__rosidl_typesupport_introspection_c\n'}
+[0.612095] (can_msgs) StdoutLine: {'line': b'[ 32%] Built target can_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.621848] (can_msgs) StdoutLine: {'line': b'[ 41%] Built target can_msgs__rosidl_typesupport_c\n'}
+[0.654919] (overlord100_msgs) StdoutLine: {'line': b'[ 22%] Built target overlord100_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.656694] (can_msgs) StdoutLine: {'line': b'[ 51%] Built target can_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.675028] (overlord100_msgs) StdoutLine: {'line': b'[ 32%] Built target overlord100_msgs__rosidl_typesupport_c\n'}
+[0.677126] (overlord100_msgs) StdoutLine: {'line': b'[ 41%] Built target overlord100_msgs__rosidl_typesupport_introspection_c\n'}
+[0.700705] (-) TimerEvent: {}
+[0.710004] (can_msgs) StdoutLine: {'line': b'[ 61%] Built target can_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.715388] (can_msgs) StdoutLine: {'line': b'[ 70%] Built target can_msgs__rosidl_typesupport_cpp\n'}
+[0.727024] (overlord100_msgs) StdoutLine: {'line': b'[ 51%] Built target overlord100_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.754759] (can_msgs) StdoutLine: {'line': b'[ 70%] Built target can_msgs\n'}
+[0.762516] (overlord100_msgs) StdoutLine: {'line': b'[ 61%] Built target overlord100_msgs__rosidl_typesupport_cpp\n'}
+[0.776700] (overlord100_msgs) StdoutLine: {'line': b'[ 70%] Built target overlord100_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.788726] (can_msgs) StdoutLine: {'line': b'[ 74%] Built target can_msgs__py\n'}
+[0.800824] (-) TimerEvent: {}
+[0.837986] (overlord100_msgs) StdoutLine: {'line': b'[ 70%] Built target overlord100_msgs\n'}
+[0.880185] (can_msgs) StdoutLine: {'line': b'[ 80%] Built target can_msgs__rosidl_generator_py\n'}
+[0.900934] (-) TimerEvent: {}
+[0.940449] (overlord100_msgs) StdoutLine: {'line': b'[ 74%] Built target overlord100_msgs__py\n'}
+[0.985217] (can_msgs) StdoutLine: {'line': b'[ 87%] Built target can_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.001044] (-) TimerEvent: {}
+[1.012654] (can_msgs) StdoutLine: {'line': b'[ 93%] Built target can_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.014712] (overlord100_msgs) StdoutLine: {'line': b'[ 80%] Built target overlord100_msgs__rosidl_generator_py\n'}
+[1.021737] (can_msgs) StdoutLine: {'line': b'[100%] Built target can_msgs__rosidl_typesupport_c__pyext\n'}
+[1.067249] (overlord100_msgs) StdoutLine: {'line': b'[ 87%] Built target overlord100_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.088667] (overlord100_msgs) StdoutLine: {'line': b'[ 93%] Built target overlord100_msgs__rosidl_typesupport_c__pyext\n'}
+[1.097168] (overlord100_msgs) StdoutLine: {'line': b'[100%] Built target overlord100_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.101157] (-) TimerEvent: {}
+[1.201563] (-) TimerEvent: {}
+[1.301955] (-) TimerEvent: {}
+[1.402336] (-) TimerEvent: {}
+[1.497141] (overlord100_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.498484] (overlord100_msgs) StdoutLine: {'line': b'writing overlord100_msgs.egg-info/PKG-INFO\n'}
+[1.498855] (overlord100_msgs) StdoutLine: {'line': b'writing dependency_links to overlord100_msgs.egg-info/dependency_links.txt\n'}
+[1.499203] (overlord100_msgs) StdoutLine: {'line': b'writing top-level names to overlord100_msgs.egg-info/top_level.txt\n'}
+[1.502450] (-) TimerEvent: {}
+[1.505110] (overlord100_msgs) StdoutLine: {'line': b"reading manifest file 'overlord100_msgs.egg-info/SOURCES.txt'\n"}
+[1.506422] (overlord100_msgs) StdoutLine: {'line': b"writing manifest file 'overlord100_msgs.egg-info/SOURCES.txt'\n"}
+[1.569107] (overlord100_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_overlord100_msgs_egg\n'}
+[1.597412] (overlord100_msgs) CommandEnded: {'returncode': 0}
+[1.602564] (-) TimerEvent: {}
+[1.630948] (can_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.633471] (can_msgs) StdoutLine: {'line': b'writing can_msgs.egg-info/PKG-INFO\n'}
+[1.635211] (can_msgs) StdoutLine: {'line': b'writing dependency_links to can_msgs.egg-info/dependency_links.txt\n'}
+[1.635869] (can_msgs) StdoutLine: {'line': b'writing top-level names to can_msgs.egg-info/top_level.txt\n'}
+[1.642920] (can_msgs) StdoutLine: {'line': b"reading manifest file 'can_msgs.egg-info/SOURCES.txt'\n"}
+[1.644499] (can_msgs) StdoutLine: {'line': b"writing manifest file 'can_msgs.egg-info/SOURCES.txt'\n"}
+[1.700330] (can_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_can_msgs_egg\n'}
+[1.702676] (-) TimerEvent: {}
+[1.723514] (can_msgs) CommandEnded: {'returncode': 0}
+[1.802775] (-) TimerEvent: {}
+[1.862275] (overlord100_msgs) JobProgress: {'identifier': 'overlord100_msgs', 'progress': 'install'}
+[1.902890] (-) TimerEvent: {}
+[1.955405] (overlord100_msgs) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--install', '/home/mike/ros2_can_test/build/overlord100_msgs'], 'cwd': '/home/mike/ros2_can_test/build/overlord100_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/overlord100_msgs/lib:/home/mike/ros2_can_test/install/can_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/overlord100_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble')]), 'shell': False}
+[1.959851] (can_msgs) JobProgress: {'identifier': 'can_msgs', 'progress': 'install'}
+[1.960942] (can_msgs) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--install', '/home/mike/ros2_can_test/build/can_msgs'], 'cwd': '/home/mike/ros2_can_test/build/can_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/overlord100_msgs/lib:/home/mike/ros2_can_test/install/can_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/can_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble')]), 'shell': False}
+[2.003005] (-) TimerEvent: {}
+[2.025050] (overlord100_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.027430] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/ament_index/resource_index/rosidl_interfaces/overlord100_msgs\n'}
+[2.027706] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs\n'}
+[2.027888] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg\n'}
+[2.028440] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.028793] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/wheels_data.h\n'}
+[2.029072] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail\n'}
+[2.029421] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__functions.h\n'}
+[2.029757] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__type_support.h\n'}
+[2.030088] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__struct.h\n'}
+[2.030420] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__functions.c\n'}
+[2.032032] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/library_path.sh\n'}
+[2.032896] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/library_path.dsv\n'}
+[2.034331] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_generator_c.so\n'}
+[2.035581] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs\n'}
+[2.036164] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg\n'}
+[2.037425] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.037811] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail\n'}
+[2.038195] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.039042] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.039915] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs\n'}
+[2.040325] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg\n'}
+[2.040675] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.041010] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail\n'}
+[2.041360] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__rosidl_typesupport_introspection_c.h\n'}
+[2.041669] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__type_support.c\n'}
+[2.045583] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.046033] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_typesupport_c.so\n'}
+[2.046258] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs\n'}
+[2.046451] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg\n'}
+[2.046643] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail\n'}
+[2.046827] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__builder.hpp\n'}
+[2.047027] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__struct.hpp\n'}
+[2.047214] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__traits.hpp\n'}
+[2.047390] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/wheels_data.hpp\n'}
+[2.047574] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs\n'}
+[2.047782] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg\n'}
+[2.047979] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.048155] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail\n'}
+[2.048330] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/dds_fastrtps\n'}
+[2.048501] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.048692] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.049065] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs\n'}
+[2.049335] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg\n'}
+[2.049555] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail\n'}
+[2.049814] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.050093] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/include/overlord100_msgs/overlord100_msgs/msg/detail/wheels_data__type_support.cpp\n'}
+[2.050546] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.050994] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_typesupport_cpp.so\n'}
+[2.051201] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/pythonpath.sh\n'}
+[2.051402] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/pythonpath.dsv\n'}
+[2.051604] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs-0.0.0-py3.10.egg-info\n'}
+[2.051792] (overlord100_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.051973] (overlord100_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.052211] (overlord100_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.052405] (overlord100_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.052593] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs\n'}
+[2.052783] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/msg\n'}
+[2.052975] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/msg/__init__.py\n'}
+[2.053165] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/msg/_wheels_data.py\n'}
+[2.053350] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/msg/_wheels_data_s.c\n'}
+[2.053511] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/overlord100_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.053675] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/__init__.py\n'}
+[2.053808] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/overlord100_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.053934] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/_overlord100_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.054062] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/_overlord100_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.054186] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/overlord100_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.054321] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/liboverlord100_msgs__rosidl_generator_py.so\n'}
+[2.054491] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/_overlord100_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.058729] (can_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.059137] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/rosidl_interfaces/can_msgs\n'}
+[2.059557] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs\n'}
+[2.060008] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg\n'}
+[2.060412] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/frame.h\n'}
+[2.060788] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.061138] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail\n'}
+[2.061537] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__functions.h\n'}
+[2.061881] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__functions.c\n'}
+[2.062246] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.h\n'}
+[2.062581] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__struct.h\n'}
+[2.063012] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/library_path.sh\n'}
+[2.063456] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/library_path.dsv\n'}
+[2.064364] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_generator_c.so\n'}
+[2.065346] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs\n'}
+[2.065891] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg\n'}
+[2.066340] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.066702] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail\n'}
+[2.067085] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_c.h\n'}
+[2.067966] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.068910] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs\n'}
+[2.069367] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg\n'}
+[2.069764] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/frame.hpp\n'}
+[2.070114] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail\n'}
+[2.070514] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp\n'}
+[2.070897] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__traits.hpp\n'}
+[2.071237] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__builder.hpp\n'}
+[2.071660] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs\n'}
+[2.072130] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg\n'}
+[2.072616] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.073004] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail\n'}
+[2.073392] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/dds_fastrtps\n'}
+[2.073830] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.074719] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.075698] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs\n'}
+[2.076201] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg\n'}
+[2.076711] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.077113] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail\n'}
+[2.077545] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.c\n'}
+[2.077911] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_introspection_c.h\n'}
+[2.078751] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.079941] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_c.so\n'}
+[2.080797] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs\n'}
+[2.081218] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg\n'}
+[2.081630] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail\n'}
+[2.082030] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.cpp\n'}
+[2.082406] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.083327] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.084817] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_cpp.so\n'}
+[2.085767] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/pythonpath.sh\n'}
+[2.086275] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/pythonpath.dsv\n'}
+[2.086725] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info\n'}
+[2.087136] (can_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.087856] (can_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.088545] (can_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.089275] (can_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.090047] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs\n'}
+[2.090497] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg\n'}
+[2.090914] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/_frame.py\n'}
+[2.091261] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/__init__.py\n'}
+[2.091609] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/_frame_s.c\n'}
+[2.091984] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.092371] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/__init__.py\n'}
+[2.092759] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/_can_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.093136] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.093498] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/libcan_msgs__rosidl_generator_py.so\n'}
+[2.093840] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/_can_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.094183] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/_can_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.094522] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.103117] (-) TimerEvent: {}
+[2.162107] (overlord100_msgs) StdoutLine: {'line': b"Listing '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs'...\n"}
+[2.162481] (overlord100_msgs) StdoutLine: {'line': b"Listing '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/msg'...\n"}
+[2.179616] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/overlord100_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.179960] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/overlord100_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.180153] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages/overlord100_msgs/overlord100_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.180317] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/lib/liboverlord100_msgs__rosidl_generator_py.so\n'}
+[2.180477] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/msg/WheelsData.idl\n'}
+[2.180643] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/msg/WheelsData.msg\n'}
+[2.180819] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/ament_index/resource_index/package_run_dependencies/overlord100_msgs\n'}
+[2.180992] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/ament_index/resource_index/parent_prefix_path/overlord100_msgs\n'}
+[2.181159] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/ament_prefix_path.sh\n'}
+[2.181302] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/ament_prefix_path.dsv\n'}
+[2.181453] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/path.sh\n'}
+[2.181620] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/environment/path.dsv\n'}
+[2.184117] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/local_setup.bash\n'}
+[2.184678] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/local_setup.sh\n'}
+[2.185143] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/local_setup.zsh\n'}
+[2.185522] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/local_setup.dsv\n'}
+[2.185949] (overlord100_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.dsv\n'}
+[2.186701] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/ament_index/resource_index/packages/overlord100_msgs\n'}
+[2.187302] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_generator_cExport.cmake\n'}
+[2.187801] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.188361] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.188756] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.189315] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.189731] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.190244] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.190669] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.191159] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.191653] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.192682] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.193247] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.193671] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.194194] (can_msgs) StdoutLine: {'line': b"Listing '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs'...\n"}
+[2.194396] (can_msgs) StdoutLine: {'line': b"Listing '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg'...\n"}
+[2.194549] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.194930] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.195433] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.195833] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/export_overlord100_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.196233] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.196622] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.197037] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.197736] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.197994] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.198369] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.198769] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.199649] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgsConfig.cmake\n'}
+[2.200047] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/cmake/overlord100_msgsConfig-version.cmake\n'}
+[2.200499] (overlord100_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.xml\n'}
+[2.205238] (-) TimerEvent: {}
+[2.213472] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.213772] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.213961] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.214148] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_generator_py.so\n'}
+[2.214325] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/msg/Frame.idl\n'}
+[2.228866] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/msg/Frame.msg\n'}
+[2.229061] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/package_run_dependencies/can_msgs\n'}
+[2.229310] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/parent_prefix_path/can_msgs\n'}
+[2.229473] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/ament_prefix_path.sh\n'}
+[2.229624] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/ament_prefix_path.dsv\n'}
+[2.229783] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/path.sh\n'}
+[2.229953] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/path.dsv\n'}
+[2.230093] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.bash\n'}
+[2.230216] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.sh\n'}
+[2.230345] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.zsh\n'}
+[2.230487] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.dsv\n'}
+[2.230611] (can_msgs) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.dsv\n'}
+[2.230740] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/packages/can_msgs\n'}
+[2.230874] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_cExport.cmake\n'}
+[2.230996] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.231114] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.231230] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.231353] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.231481] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.231607] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.245132] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.245589] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.245780] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.245976] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.246121] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.246257] (overlord100_msgs) CommandEnded: {'returncode': 0}
+[2.246993] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.247198] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.247585] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.247800] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.247981] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.248170] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.248335] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.248473] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.248597] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.248716] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.248833] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.248952] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.249070] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgsConfig.cmake\n'}
+[2.249200] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgsConfig-version.cmake\n'}
+[2.249337] (can_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.xml\n'}
+[2.305372] (-) TimerEvent: {}
+[2.405894] (-) TimerEvent: {}
+[2.488763] (can_msgs) CommandEnded: {'returncode': 0}
+[2.506173] (-) TimerEvent: {}
+[2.606567] (-) TimerEvent: {}
+[2.708186] (-) TimerEvent: {}
+[2.809744] (-) TimerEvent: {}
+[2.910425] (-) TimerEvent: {}
+[2.980732] (overlord100_msgs) JobEnded: {'identifier': 'overlord100_msgs', 'rc': 0}
+[3.010614] (-) TimerEvent: {}
+[3.112154] (-) TimerEvent: {}
+[3.174731] (can_msgs) JobEnded: {'identifier': 'can_msgs', 'rc': 0}
+[3.176274] (ros2socketcan_bridge) JobStarted: {'identifier': 'ros2socketcan_bridge'}
+[3.212337] (-) TimerEvent: {}
+[3.312819] (-) TimerEvent: {}
+[3.322337] (zlac8015d) JobStarted: {'identifier': 'zlac8015d'}
+[3.412932] (-) TimerEvent: {}
+[3.467419] (ros2socketcan_bridge) JobProgress: {'identifier': 'ros2socketcan_bridge', 'progress': 'cmake'}
+[3.468739] (ros2socketcan_bridge) JobProgress: {'identifier': 'ros2socketcan_bridge', 'progress': 'build'}
+[3.469568] (ros2socketcan_bridge) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--build', '/home/mike/ros2_can_test/build/ros2socketcan_bridge', '--', '-j4', '-l4'], 'cwd': '/home/mike/ros2_can_test/build/ros2socketcan_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/ros2socketcan_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble')]), 'shell': False}
+[3.474979] (zlac8015d) JobProgress: {'identifier': 'zlac8015d', 'progress': 'cmake'}
+[3.477378] (zlac8015d) JobProgress: {'identifier': 'zlac8015d', 'progress': 'build'}
+[3.478305] (zlac8015d) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--build', '/home/mike/ros2_can_test/build/zlac8015d', '--', '-j4', '-l4'], 'cwd': '/home/mike/ros2_can_test/build/zlac8015d', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/zlac8015d'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble')]), 'shell': False}
+[3.513055] (-) TimerEvent: {}
+[3.613424] (-) TimerEvent: {}
+[3.621832] (zlac8015d) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motors_driver_node.dir/src/motors_driver_node.cpp.o\x1b[0m\n'}
+[3.634048] (ros2socketcan_bridge) StdoutLine: {'line': b'[100%] Built target ros2socketcan\n'}
+[3.662676] (ros2socketcan_bridge) CommandEnded: {'returncode': 0}
+[3.713551] (-) TimerEvent: {}
+[3.813101] (ros2socketcan_bridge) JobProgress: {'identifier': 'ros2socketcan_bridge', 'progress': 'install'}
+[3.814323] (-) TimerEvent: {}
+[3.814549] (ros2socketcan_bridge) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--install', '/home/mike/ros2_can_test/build/ros2socketcan_bridge'], 'cwd': '/home/mike/ros2_can_test/build/ros2socketcan_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/ros2socketcan_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble')]), 'shell': False}
+[3.909808] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.910893] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/lib/ros2socketcan_bridge/ros2socketcan\n'}
+[3.911856] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ament_index/resource_index/package_run_dependencies/ros2socketcan_bridge\n'}
+[3.912239] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ament_index/resource_index/parent_prefix_path/ros2socketcan_bridge\n'}
+[3.912580] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/environment/ament_prefix_path.sh\n'}
+[3.912906] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/environment/ament_prefix_path.dsv\n'}
+[3.913236] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/environment/path.sh\n'}
+[3.913637] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/environment/path.dsv\n'}
+[3.914007] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/local_setup.bash\n'}
+[3.914321] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/local_setup.sh\n'}
+[3.914484] (-) TimerEvent: {}
+[3.914883] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/local_setup.zsh\n'}
+[3.915224] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/local_setup.dsv\n'}
+[3.915628] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.dsv\n'}
+[3.916418] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ament_index/resource_index/packages/ros2socketcan_bridge\n'}
+[3.916828] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/cmake/ros2socketcan_bridgeConfig.cmake\n'}
+[3.917145] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/cmake/ros2socketcan_bridgeConfig-version.cmake\n'}
+[3.917526] (ros2socketcan_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.xml\n'}
+[3.931776] (ros2socketcan_bridge) CommandEnded: {'returncode': 0}
+[4.014683] (-) TimerEvent: {}
+[4.115289] (-) TimerEvent: {}
+[4.216002] (-) TimerEvent: {}
+[4.316654] (-) TimerEvent: {}
+[4.417257] (-) TimerEvent: {}
+[4.517630] (-) TimerEvent: {}
+[4.548186] (ros2socketcan_bridge) JobEnded: {'identifier': 'ros2socketcan_bridge', 'rc': 0}
+[4.617800] (-) TimerEvent: {}
+[4.718318] (-) TimerEvent: {}
+[4.818710] (-) TimerEvent: {}
+[4.919117] (-) TimerEvent: {}
+[5.023773] (-) TimerEvent: {}
+[5.124315] (-) TimerEvent: {}
+[5.225124] (-) TimerEvent: {}
+[5.326050] (-) TimerEvent: {}
+[5.426457] (-) TimerEvent: {}
+[5.527044] (-) TimerEvent: {}
+[5.627451] (-) TimerEvent: {}
+[5.727975] (-) TimerEvent: {}
+[5.828631] (-) TimerEvent: {}
+[5.929008] (-) TimerEvent: {}
+[6.029415] (-) TimerEvent: {}
+[6.129831] (-) TimerEvent: {}
+[6.230239] (-) TimerEvent: {}
+[6.330801] (-) TimerEvent: {}
+[6.431302] (-) TimerEvent: {}
+[6.531746] (-) TimerEvent: {}
+[6.632293] (-) TimerEvent: {}
+[6.732697] (-) TimerEvent: {}
+[6.833215] (-) TimerEvent: {}
+[6.933759] (-) TimerEvent: {}
+[7.034203] (-) TimerEvent: {}
+[7.135079] (-) TimerEvent: {}
+[7.235643] (-) TimerEvent: {}
+[7.336207] (-) TimerEvent: {}
+[7.436756] (-) TimerEvent: {}
+[7.537292] (-) TimerEvent: {}
+[7.637868] (-) TimerEvent: {}
+[7.738311] (-) TimerEvent: {}
+[7.838813] (-) TimerEvent: {}
+[7.939222] (-) TimerEvent: {}
+[8.039764] (-) TimerEvent: {}
+[8.140176] (-) TimerEvent: {}
+[8.240581] (-) TimerEvent: {}
+[8.341171] (-) TimerEvent: {}
+[8.441577] (-) TimerEvent: {}
+[8.541988] (-) TimerEvent: {}
+[8.642383] (-) TimerEvent: {}
+[8.742950] (-) TimerEvent: {}
+[8.843470] (-) TimerEvent: {}
+[8.944061] (-) TimerEvent: {}
+[9.044632] (-) TimerEvent: {}
+[9.145158] (-) TimerEvent: {}
+[9.245667] (-) TimerEvent: {}
+[9.346086] (-) TimerEvent: {}
+[9.446490] (-) TimerEvent: {}
+[9.547024] (-) TimerEvent: {}
+[9.647518] (-) TimerEvent: {}
+[9.748036] (-) TimerEvent: {}
+[9.848585] (-) TimerEvent: {}
+[9.949050] (-) TimerEvent: {}
+[10.051260] (-) TimerEvent: {}
+[10.151706] (-) TimerEvent: {}
+[10.252210] (-) TimerEvent: {}
+[10.352614] (-) TimerEvent: {}
+[10.453016] (-) TimerEvent: {}
+[10.553430] (-) TimerEvent: {}
+[10.653844] (-) TimerEvent: {}
+[10.754433] (-) TimerEvent: {}
+[10.854992] (-) TimerEvent: {}
+[10.955737] (-) TimerEvent: {}
+[11.056302] (-) TimerEvent: {}
+[11.156924] (-) TimerEvent: {}
+[11.257525] (-) TimerEvent: {}
+[11.358125] (-) TimerEvent: {}
+[11.458587] (-) TimerEvent: {}
+[11.559035] (-) TimerEvent: {}
+[11.659877] (-) TimerEvent: {}
+[11.760491] (-) TimerEvent: {}
+[11.861320] (-) TimerEvent: {}
+[11.961982] (-) TimerEvent: {}
+[12.062401] (-) TimerEvent: {}
+[12.163131] (-) TimerEvent: {}
+[12.263536] (-) TimerEvent: {}
+[12.363932] (-) TimerEvent: {}
+[12.464320] (-) TimerEvent: {}
+[12.564848] (-) TimerEvent: {}
+[12.665406] (-) TimerEvent: {}
+[12.765800] (-) TimerEvent: {}
+[12.866164] (-) TimerEvent: {}
+[12.966708] (-) TimerEvent: {}
+[13.067122] (-) TimerEvent: {}
+[13.167549] (-) TimerEvent: {}
+[13.267892] (-) TimerEvent: {}
+[13.368350] (-) TimerEvent: {}
+[13.468742] (-) TimerEvent: {}
+[13.569089] (-) TimerEvent: {}
+[13.669606] (-) TimerEvent: {}
+[13.770734] (-) TimerEvent: {}
+[13.871125] (-) TimerEvent: {}
+[13.971520] (-) TimerEvent: {}
+[14.071865] (-) TimerEvent: {}
+[14.172334] (-) TimerEvent: {}
+[14.272763] (-) TimerEvent: {}
+[14.373125] (-) TimerEvent: {}
+[14.473577] (-) TimerEvent: {}
+[14.574010] (-) TimerEvent: {}
+[14.674414] (-) TimerEvent: {}
+[14.774859] (-) TimerEvent: {}
+[14.875253] (-) TimerEvent: {}
+[14.975726] (-) TimerEvent: {}
+[15.076112] (-) TimerEvent: {}
+[15.176533] (-) TimerEvent: {}
+[15.277015] (-) TimerEvent: {}
+[15.377458] (-) TimerEvent: {}
+[15.477876] (-) TimerEvent: {}
+[15.578218] (-) TimerEvent: {}
+[15.678759] (-) TimerEvent: {}
+[15.779482] (-) TimerEvent: {}
+[15.879896] (-) TimerEvent: {}
+[15.980233] (-) TimerEvent: {}
+[16.080636] (-) TimerEvent: {}
+[16.181036] (-) TimerEvent: {}
+[16.281470] (-) TimerEvent: {}
+[16.381848] (-) TimerEvent: {}
+[16.482290] (-) TimerEvent: {}
+[16.493768] (zlac8015d) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motors_driver_node\x1b[0m\n'}
+[16.582421] (-) TimerEvent: {}
+[16.682873] (-) TimerEvent: {}
+[16.783329] (-) TimerEvent: {}
+[16.883748] (-) TimerEvent: {}
+[16.984541] (-) TimerEvent: {}
+[17.084941] (-) TimerEvent: {}
+[17.185524] (-) TimerEvent: {}
+[17.285906] (-) TimerEvent: {}
+[17.308587] (zlac8015d) StdoutLine: {'line': b'[100%] Built target motors_driver_node\n'}
+[17.325025] (zlac8015d) CommandEnded: {'returncode': 0}
+[17.386020] (-) TimerEvent: {}
+[17.417279] (zlac8015d) JobProgress: {'identifier': 'zlac8015d', 'progress': 'install'}
+[17.418375] (zlac8015d) Command: {'cmd': ['/home/mike/.local/bin/cmake', '--install', '/home/mike/ros2_can_test/build/zlac8015d'], 'cwd': '/home/mike/ros2_can_test/build/zlac8015d', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mike'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '141670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mike/ros2_can_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mike'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/home/mike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mike-K501UX:@/tmp/.ICE-unix/5282,unix/mike-K501UX:/tmp/.ICE-unix/5282'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a14b6272_854f_43f7_b9eb_dd390f5ccee4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.842'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/can_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/ros2_can_test/build/zlac8015d'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mike/ros2_can_test/install/overlord100_msgs/local/lib/python3.10/dist-packages:/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble')]), 'shell': False}
+[17.480941] (zlac8015d) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.481437] (zlac8015d) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/zlac8015d/lib/zlac8015d/motors_driver_node\n'}
+[17.486106] (-) TimerEvent: {}
+[17.491181] (zlac8015d) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/ros2_can_test/install/zlac8015d/lib/zlac8015d/motors_driver_node" to ""\n'}
+[17.491792] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/ament_index/resource_index/package_run_dependencies/zlac8015d\n'}
+[17.492050] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/ament_index/resource_index/parent_prefix_path/zlac8015d\n'}
+[17.492226] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/ament_prefix_path.sh\n'}
+[17.492362] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/ament_prefix_path.dsv\n'}
+[17.492506] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/path.sh\n'}
+[17.492898] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/path.dsv\n'}
+[17.493062] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.bash\n'}
+[17.493198] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.sh\n'}
+[17.493327] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.zsh\n'}
+[17.493554] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.dsv\n'}
+[17.493694] (zlac8015d) StdoutLine: {'line': b'-- Installing: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.dsv\n'}
+[17.493824] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/ament_index/resource_index/packages/zlac8015d\n'}
+[17.493951] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/cmake/zlac8015dConfig.cmake\n'}
+[17.494082] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/cmake/zlac8015dConfig-version.cmake\n'}
+[17.494209] (zlac8015d) StdoutLine: {'line': b'-- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.xml\n'}
+[17.502481] (zlac8015d) CommandEnded: {'returncode': 0}
+[17.586257] (-) TimerEvent: {}
+[17.686913] (-) TimerEvent: {}
+[17.787422] (-) TimerEvent: {}
+[17.887924] (-) TimerEvent: {}
+[17.988908] (-) TimerEvent: {}
+[18.027494] (zlac8015d) JobEnded: {'identifier': 'zlac8015d', 'rc': 0}
+[18.029991] (-) EventReactorShutdown: {}

@@ -11,7 +11,7 @@
 using std::placeholders::_1;
 using namespace std::chrono_literals;
 
-#define CAN_OUT_TOPIC "/CAN/can0/send"
+#define CAN_OUT_TOPIC "/CAN/can0/transmit"
 #define CAN_IN_TOPIC "/CAN/can0/receive"
 
 #define VELOCITY_CONTROL_TOPIC "/wheels_control"
@@ -32,7 +32,7 @@ class MotorsDriverNode : public rclcpp::Node
 
       can_output = this->create_publisher<can_msgs::msg::Frame>(CAN_OUT_TOPIC, 10);
 
-      this->create_wall_timer(500ms, std::bind(&syncronous_velocity_control_init, this));
+      timer_ = this->create_wall_timer(500ms, std::bind(&MotorsDriverNode::syncronous_velocity_control_init, this));
     }
 
   private:
@@ -77,6 +77,8 @@ class MotorsDriverNode : public rclcpp::Node
 
     void syncronous_velocity_control_init() {
 
+      RCLCPP_INFO(this->get_logger(), "OK\n");
+
       std::vector<std::array<uint8_t, 8UL>> commands = std::vector<std::array<uint8_t, 8UL>>({
         {0x2B, 0x0F, 0x20, 0x00, 0x01, 0x00, 0x00, 0x00},
         {0x2F, 0x60, 0x60, 0x00, 0x03, 0x00, 0x00, 0x00},
@@ -110,6 +112,8 @@ class MotorsDriverNode : public rclcpp::Node
     rclcpp::Subscription<overlord100_msgs::msg::WheelsData>::SharedPtr wheels_velocities_input;
 
     rclcpp::Publisher<can_msgs::msg::Frame>::SharedPtr can_output;
+
+    rclcpp::TimerBase::SharedPtr timer_;
 
 
 };

@@ -1,0 +1,25 @@
+[0.158s] Invoking command in '/home/mike/ros2_can_test/build/zlac8015d': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/zlac8015d -- -j4 -l4
+[0.315s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_driver_node.dir/src/motors_driver_node.cpp.o[0m
+[13.749s] [100%] [32m[1mLinking CXX executable motors_driver_node[0m
+[14.569s] [100%] Built target motors_driver_node
+[14.586s] Invoked command in '/home/mike/ros2_can_test/build/zlac8015d' returned '0': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/zlac8015d -- -j4 -l4
+[14.682s] Invoking command in '/home/mike/ros2_can_test/build/zlac8015d': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/zlac8015d
+[14.740s] -- Install configuration: ""
+[14.740s] -- Installing: /home/mike/ros2_can_test/install/zlac8015d/lib/zlac8015d/motors_driver_node
+[14.751s] -- Set runtime path of "/home/mike/ros2_can_test/install/zlac8015d/lib/zlac8015d/motors_driver_node" to ""
+[14.752s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/ament_index/resource_index/package_run_dependencies/zlac8015d
+[14.752s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/ament_index/resource_index/parent_prefix_path/zlac8015d
+[14.752s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/ament_prefix_path.sh
+[14.752s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/ament_prefix_path.dsv
+[14.752s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/path.sh
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/environment/path.dsv
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.bash
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.sh
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.zsh
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/local_setup.dsv
+[14.753s] -- Installing: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.dsv
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/ament_index/resource_index/packages/zlac8015d
+[14.753s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/cmake/zlac8015dConfig.cmake
+[14.754s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/cmake/zlac8015dConfig-version.cmake
+[14.754s] -- Up-to-date: /home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.xml
+[14.762s] Invoked command in '/home/mike/ros2_can_test/build/zlac8015d' returned '0': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/zlac8015d
