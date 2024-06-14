@@ -1,0 +1,6 @@
+{
+  "package_name": "can_msgs",
+  "non_idl_tuples": [
+    "/home/mike/ros2_can_test/src/can_msgs:msg/Frame.msg"
+  ]
+}

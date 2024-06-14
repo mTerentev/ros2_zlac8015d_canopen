@@ -1,0 +1,10 @@
+[01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:[m[K In member function ‘[01m[Kvoid MotorsDriverNode::topic_callback(const WheelsData&)[m[K’:
+[01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:45:17:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[K [m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |       printf("%h[01;35m[K [m[K\n %h \n\n", left, right);
+      |                 [01;35m[K^[m[K
+[01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:45:23:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[K [m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |       printf("%h \n %h[01;35m[K [m[K\n\n", left, right);
+      |                       [01;35m[K^[m[K
+[01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:45:14:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   45 |       printf([01;35m[K"%h \n %h \n\n"[m[K, left, right);
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K

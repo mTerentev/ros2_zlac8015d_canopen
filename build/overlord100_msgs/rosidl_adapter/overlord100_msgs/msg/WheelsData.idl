@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from overlord100_msgs/msg/WheelsData.msg
+// generated code does not contain a copyright notice
+
+
+module overlord100_msgs {
+  module msg {
+    struct WheelsData {
+      double left;
+
+      double right;
+    };
+  };
+};

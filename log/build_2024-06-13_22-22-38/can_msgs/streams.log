@@ -1,0 +1,228 @@
+[0.160s] Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake /home/mike/ros2_can_test/src/can_msgs -DCMAKE_INSTALL_PREFIX=/home/mike/ros2_can_test/install/can_msgs
+[0.447s] -- The C compiler identification is GNU 11.4.0
+[0.611s] -- The CXX compiler identification is GNU 11.4.0
+[0.631s] -- Detecting C compiler ABI info
+[0.760s] -- Detecting C compiler ABI info - done
+[0.789s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.791s] -- Detecting C compile features
+[0.795s] -- Detecting C compile features - done
+[0.800s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.975s] -- Detecting CXX compile features
+[0.976s] -- Detecting CXX compile features - done
+[0.988s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.859s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.020s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[2.099s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.109s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.125s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.368s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.826s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.672s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.675s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.744s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.745s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.745s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.745s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.798s] -- Found PythonExtra: .so  
+[3.921s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.966s] -- Added test 'lint_cmake' to check CMake code style
+[3.969s] -- Added test 'xmllint' to check XML markup files
+[3.976s] -- Configuring done (3.7s)
+[4.047s] -- Generating done (0.1s)
+[4.051s] -- Build files have been written to: /home/mike/ros2_can_test/build/can_msgs
+[4.071s] Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake /home/mike/ros2_can_test/src/can_msgs -DCMAKE_INSTALL_PREFIX=/home/mike/ros2_can_test/install/can_msgs
+[4.073s] Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/can_msgs -- -j4 -l4
+[4.183s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.213s] [  3%] Built target ament_cmake_python_copy_can_msgs
+[4.217s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.021s] [  6%] Built target can_msgs__cpp
+[5.034s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.040s] [ 12%] [32mBuilding C object CMakeFiles/can_msgs__rosidl_generator_c.dir/rosidl_generator_c/can_msgs/msg/detail/frame__functions.c.o[0m
+[5.052s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.188s] running egg_info
+[5.189s] creating can_msgs.egg-info
+[5.190s] writing can_msgs.egg-info/PKG-INFO
+[5.194s] writing dependency_links to can_msgs.egg-info/dependency_links.txt
+[5.195s] writing top-level names to can_msgs.egg-info/top_level.txt
+[5.195s] writing manifest file 'can_msgs.egg-info/SOURCES.txt'
+[5.210s] reading manifest file 'can_msgs.egg-info/SOURCES.txt'
+[5.212s] writing manifest file 'can_msgs.egg-info/SOURCES.txt'
+[5.275s] [ 19%] [32m[1mLinking C shared library libcan_msgs__rosidl_generator_c.so[0m
+[5.282s] [ 19%] Built target ament_cmake_python_build_can_msgs_egg
+[5.301s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.390s] [ 22%] Built target can_msgs__rosidl_generator_c
+[5.402s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.859s] [ 29%] [32mBuilding CXX object CMakeFiles/can_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/can_msgs/msg/frame__type_support.cpp.o[0m
+[5.960s] [ 32%] [32mBuilding CXX object CMakeFiles/can_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/can_msgs/msg/detail/dds_fastrtps/frame__type_support.cpp.o[0m
+[6.143s] [ 35%] [32mBuilding CXX object CMakeFiles/can_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/can_msgs/msg/detail/frame__type_support.cpp.o[0m
+[6.296s] [ 38%] [32mBuilding CXX object CMakeFiles/can_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/can_msgs/msg/detail/frame__type_support_c.cpp.o[0m
+[6.986s] [ 41%] [32m[1mLinking CXX shared library libcan_msgs__rosidl_typesupport_cpp.so[0m
+[7.174s] [ 41%] Built target can_msgs__rosidl_typesupport_cpp
+[7.223s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.271s] [ 48%] [32m[1mLinking CXX shared library libcan_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.523s] [ 51%] [32m[1mLinking CXX shared library libcan_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.574s] [ 54%] [32m[1mLinking CXX shared library libcan_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.644s] [ 54%] Built target can_msgs__rosidl_typesupport_fastrtps_cpp
+[7.692s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.839s] [ 58%] Built target can_msgs__rosidl_typesupport_introspection_cpp
+[7.847s] [ 58%] Built target can_msgs__rosidl_typesupport_fastrtps_c
+[8.002s] [ 61%] [32mBuilding C object CMakeFiles/can_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/can_msgs/msg/detail/frame__type_support.c.o[0m
+[8.079s] [ 64%] [32m[1mLinking C shared library libcan_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.126s] [ 64%] Built target can_msgs__rosidl_typesupport_introspection_c
+[8.310s] [ 67%] [32mBuilding CXX object CMakeFiles/can_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/can_msgs/msg/frame__type_support.cpp.o[0m
+[8.353s] [ 70%] [32m[1mLinking CXX shared library libcan_msgs__rosidl_typesupport_c.so[0m
+[8.409s] [ 70%] Built target can_msgs__rosidl_typesupport_c
+[8.425s] [ 70%] Built target can_msgs
+[8.441s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.023s] [ 74%] Built target can_msgs__py
+[9.040s] [ 77%] [32mBuilding C object CMakeFiles/can_msgs__rosidl_generator_py.dir/rosidl_generator_py/can_msgs/msg/_frame_s.c.o[0m
+[9.217s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/can_msgs/libcan_msgs__rosidl_generator_py.so[0m
+[9.271s] [ 80%] Built target can_msgs__rosidl_generator_py
+[9.293s] [ 83%] [32mBuilding C object CMakeFiles/can_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.293s] [ 87%] [32mBuilding C object CMakeFiles/can_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.294s] [ 90%] [32mBuilding C object CMakeFiles/can_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/can_msgs/_can_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.535s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/can_msgs/can_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.577s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/can_msgs/can_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.606s] [ 96%] Built target can_msgs__rosidl_typesupport_c__pyext
+[9.640s] [100%] [32m[1mLinking C shared library rosidl_generator_py/can_msgs/can_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.646s] [100%] Built target can_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.695s] [100%] Built target can_msgs__rosidl_typesupport_introspection_c__pyext
+[9.720s] Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/can_msgs -- -j4 -l4
+[10.000s] Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/can_msgs
+[10.058s] -- Install configuration: ""
+[10.058s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/rosidl_interfaces/can_msgs
+[10.059s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs
+[10.059s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg
+[10.060s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/frame.h
+[10.063s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.063s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail
+[10.065s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__functions.h
+[10.065s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__functions.c
+[10.065s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.h
+[10.066s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__struct.h
+[10.066s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/library_path.sh
+[10.066s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/library_path.dsv
+[10.066s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_generator_c.so
+[10.067s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_generator_c.so" to ""
+[10.067s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs
+[10.067s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg
+[10.067s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.068s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail
+[10.068s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_c.h
+[10.068s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_c.so
+[10.068s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.068s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs
+[10.069s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg
+[10.069s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/frame.hpp
+[10.070s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail
+[10.070s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp
+[10.071s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__traits.hpp
+[10.071s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__builder.hpp
+[10.071s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs
+[10.071s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg
+[10.071s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.072s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail
+[10.072s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/dds_fastrtps
+[10.072s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_fastrtps_cpp.hpp
+[10.072s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.072s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.073s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs
+[10.073s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg
+[10.073s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.073s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail
+[10.073s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.c
+[10.074s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_introspection_c.h
+[10.074s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_c.so
+[10.074s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.074s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_c.so
+[10.074s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_c.so" to ""
+[10.074s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs
+[10.075s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg
+[10.075s] -- Up-to-date: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail
+[10.075s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__type_support.cpp
+[10.075s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/include/can_msgs/can_msgs/msg/detail/frame__rosidl_typesupport_introspection_cpp.hpp
+[10.075s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_cpp.so
+[10.076s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.076s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_cpp.so
+[10.076s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_typesupport_cpp.so" to ""
+[10.076s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/pythonpath.sh
+[10.077s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/pythonpath.dsv
+[10.077s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info
+[10.077s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.077s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.077s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[10.078s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[10.078s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs
+[10.078s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg
+[10.078s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/_frame.py
+[10.079s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/__init__.py
+[10.079s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/_frame_s.c
+[10.080s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.080s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/__init__.py
+[10.080s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/_can_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.080s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.080s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/libcan_msgs__rosidl_generator_py.so
+[10.080s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/_can_msgs_s.ep.rosidl_typesupport_c.c
+[10.081s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/_can_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.081s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.165s] Listing '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs'...
+[10.165s] Compiling '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/__init__.py'...
+[10.167s] Listing '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg'...
+[10.167s] Compiling '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/__init__.py'...
+[10.169s] Compiling '/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/msg/_frame.py'...
+[10.173s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.174s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.175s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.176s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.176s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.177s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/local/lib/python3.10/dist-packages/can_msgs/can_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.177s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_generator_py.so
+[10.178s] -- Set runtime path of "/home/mike/ros2_can_test/install/can_msgs/lib/libcan_msgs__rosidl_generator_py.so" to ""
+[10.179s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/msg/Frame.idl
+[10.179s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/msg/Frame.msg
+[10.179s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/package_run_dependencies/can_msgs
+[10.179s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/parent_prefix_path/can_msgs
+[10.180s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/ament_prefix_path.sh
+[10.180s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/ament_prefix_path.dsv
+[10.180s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/path.sh
+[10.181s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/environment/path.dsv
+[10.181s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.bash
+[10.181s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.sh
+[10.181s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.zsh
+[10.182s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/local_setup.dsv
+[10.182s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.dsv
+[10.182s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/ament_index/resource_index/packages/can_msgs
+[10.183s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_cExport.cmake
+[10.183s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.183s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.184s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.184s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_cppExport.cmake
+[10.184s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.184s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.185s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.185s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.185s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cExport.cmake
+[10.186s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.186s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.186s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.187s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cppExport.cmake
+[10.188s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.188s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_pyExport.cmake
+[10.190s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/export_can_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.191s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/rosidl_cmake-extras.cmake
+[10.191s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.192s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.192s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.192s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.192s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.192s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.192s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgsConfig.cmake
+[10.193s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/cmake/can_msgsConfig-version.cmake
+[10.193s] -- Installing: /home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.xml
+[10.203s] Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/can_msgs

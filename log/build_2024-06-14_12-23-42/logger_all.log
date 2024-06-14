@@ -1,0 +1,349 @@
+[2.370s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.370s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f76d4825b10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f76d4826e00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f76d4826e00>>)
+[2.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.548s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mike/ros2_can_test'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extension 'ignore'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extension 'ignore_ament_install'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extensions ['colcon_pkg']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extension 'colcon_pkg'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extensions ['colcon_meta']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extension 'colcon_meta'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extensions ['ros']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_msgs) by extension 'ros'
+[2.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/can_msgs' with type 'ros.ament_cmake' and name 'can_msgs'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extension 'ignore'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extension 'ignore_ament_install'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extensions ['colcon_pkg']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extension 'colcon_pkg'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extensions ['colcon_meta']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extension 'colcon_meta'
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extensions ['ros']
+[2.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/overlord100_msgs) by extension 'ros'
+[2.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/overlord100_msgs' with type 'ros.ament_cmake' and name 'overlord100_msgs'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extensions ['ignore', 'ignore_ament_install']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extension 'ignore'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extension 'ignore_ament_install'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extensions ['colcon_pkg']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extension 'colcon_pkg'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extensions ['colcon_meta']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extension 'colcon_meta'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extensions ['ros']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2socketcan_bridge) by extension 'ros'
+[2.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2socketcan_bridge' with type 'ros.ament_cmake' and name 'ros2socketcan_bridge'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extensions ['ignore', 'ignore_ament_install']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extension 'ignore'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extension 'ignore_ament_install'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extensions ['colcon_pkg']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extension 'colcon_pkg'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extensions ['colcon_meta']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extension 'colcon_meta'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extensions ['ros']
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/zlac8015d) by extension 'ros'
+[2.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zlac8015d' with type 'ros.ament_cmake' and name 'zlac8015d'
+[2.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.913s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/mike/ros2_can_test/install
+[2.946s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[2.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'cmake_target' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'can_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.146s] DEBUG:colcon.colcon_core.verb:Building package 'can_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike/ros2_can_test/build/can_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike/ros2_can_test/install/can_msgs', 'merge_install': False, 'path': '/home/mike/ros2_can_test/src/can_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'cmake_args' from command line to 'None'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'cmake_target' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.182s] Level 5:colcon.colcon_core.verb:set package 'overlord100_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.182s] DEBUG:colcon.colcon_core.verb:Building package 'overlord100_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike/ros2_can_test/build/overlord100_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike/ros2_can_test/install/overlord100_msgs', 'merge_install': False, 'path': '/home/mike/ros2_can_test/src/overlord100_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'cmake_target' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'ros2socketcan_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.213s] DEBUG:colcon.colcon_core.verb:Building package 'ros2socketcan_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike/ros2_can_test/build/ros2socketcan_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike/ros2_can_test/install/ros2socketcan_bridge', 'merge_install': False, 'path': '/home/mike/ros2_can_test/src/ros2socketcan_bridge', 'symlink_install': False, 'test_result_base': None}
+[3.243s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'cmake_args' from command line to 'None'
+[3.243s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'cmake_target' from command line to 'None'
+[3.243s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.243s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'cmake_clean_cache' from command line to 'False'
+[3.244s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'cmake_clean_first' from command line to 'False'
+[3.244s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'cmake_force_configure' from command line to 'False'
+[3.244s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'ament_cmake_args' from command line to 'None'
+[3.244s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'catkin_cmake_args' from command line to 'None'
+[3.244s] Level 5:colcon.colcon_core.verb:set package 'zlac8015d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.244s] DEBUG:colcon.colcon_core.verb:Building package 'zlac8015d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike/ros2_can_test/build/zlac8015d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike/ros2_can_test/install/zlac8015d', 'merge_install': False, 'path': '/home/mike/ros2_can_test/src/zlac8015d', 'symlink_install': False, 'test_result_base': None}
+[3.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike/ros2_can_test/src/can_msgs' with build type 'ament_cmake'
+[3.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike/ros2_can_test/src/can_msgs'
+[3.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike/ros2_can_test/src/overlord100_msgs' with build type 'ament_cmake'
+[3.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike/ros2_can_test/src/overlord100_msgs'
+[3.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/can_msgs -- -j4 -l4
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/overlord100_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/overlord100_msgs -- -j4 -l4
+[5.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/overlord100_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/overlord100_msgs -- -j4 -l4
+[5.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/can_msgs -- -j4 -l4
+[6.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/overlord100_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/overlord100_msgs
+[6.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/can_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/can_msgs
+[6.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(overlord100_msgs)
+[6.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/overlord100_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/overlord100_msgs
+[6.795s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs' for CMake module files
+[6.797s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs' for CMake config files
+[6.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('overlord100_msgs', 'cmake_prefix_path')
+[6.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/cmake_prefix_path.ps1'
+[6.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/cmake_prefix_path.dsv'
+[6.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/cmake_prefix_path.sh'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/lib'
+[6.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('overlord100_msgs', 'ld_library_path_lib')
+[6.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/ld_library_path_lib.ps1'
+[6.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/ld_library_path_lib.dsv'
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/ld_library_path_lib.sh'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/bin'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/lib/pkgconfig/overlord100_msgs.pc'
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/lib/python3.10/site-packages'
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/bin'
+[6.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.ps1'
+[6.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.dsv'
+[6.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.sh'
+[6.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.bash'
+[6.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.zsh'
+[6.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/overlord100_msgs/share/colcon-core/packages/overlord100_msgs)
+[6.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_msgs)
+[6.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/can_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/can_msgs
+[7.013s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs' for CMake module files
+[7.014s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs' for CMake config files
+[7.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_msgs', 'cmake_prefix_path')
+[7.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/cmake_prefix_path.ps1'
+[7.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/cmake_prefix_path.dsv'
+[7.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/cmake_prefix_path.sh'
+[7.078s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/lib'
+[7.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_msgs', 'ld_library_path_lib')
+[7.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/ld_library_path_lib.ps1'
+[7.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/ld_library_path_lib.dsv'
+[7.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/ld_library_path_lib.sh'
+[7.132s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/bin'
+[7.132s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/lib/pkgconfig/can_msgs.pc'
+[7.133s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/lib/python3.10/site-packages'
+[7.134s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/bin'
+[7.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.ps1'
+[7.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.dsv'
+[7.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.sh'
+[7.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.bash'
+[7.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.zsh'
+[7.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/can_msgs/share/colcon-core/packages/can_msgs)
+[7.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(overlord100_msgs)
+[7.302s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs' for CMake module files
+[7.303s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs' for CMake config files
+[7.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('overlord100_msgs', 'cmake_prefix_path')
+[7.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/cmake_prefix_path.ps1'
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/cmake_prefix_path.dsv'
+[7.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/cmake_prefix_path.sh'
+[7.365s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/lib'
+[7.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('overlord100_msgs', 'ld_library_path_lib')
+[7.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/ld_library_path_lib.ps1'
+[7.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/ld_library_path_lib.dsv'
+[7.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/hook/ld_library_path_lib.sh'
+[7.440s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/bin'
+[7.440s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/lib/pkgconfig/overlord100_msgs.pc'
+[7.440s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/lib/python3.10/site-packages'
+[7.441s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/overlord100_msgs/bin'
+[7.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.ps1'
+[7.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.dsv'
+[7.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.sh'
+[7.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.bash'
+[7.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/overlord100_msgs/share/overlord100_msgs/package.zsh'
+[7.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/overlord100_msgs/share/colcon-core/packages/overlord100_msgs)
+[7.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_msgs)
+[7.599s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs' for CMake module files
+[7.601s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs' for CMake config files
+[7.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_msgs', 'cmake_prefix_path')
+[7.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/cmake_prefix_path.ps1'
+[7.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/cmake_prefix_path.dsv'
+[7.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/cmake_prefix_path.sh'
+[7.665s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/lib'
+[7.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_msgs', 'ld_library_path_lib')
+[7.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/ld_library_path_lib.ps1'
+[7.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/ld_library_path_lib.dsv'
+[7.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/hook/ld_library_path_lib.sh'
+[7.729s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/bin'
+[7.730s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/lib/pkgconfig/can_msgs.pc'
+[7.730s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/lib/python3.10/site-packages'
+[7.731s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/can_msgs/bin'
+[7.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.ps1'
+[7.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.dsv'
+[7.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.sh'
+[7.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.bash'
+[7.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/can_msgs/share/can_msgs/package.zsh'
+[7.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/can_msgs/share/colcon-core/packages/can_msgs)
+[7.806s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike/ros2_can_test/src/ros2socketcan_bridge' with build type 'ament_cmake'
+[7.806s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike/ros2_can_test/src/ros2socketcan_bridge'
+[7.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.066s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike/ros2_can_test/src/zlac8015d' with build type 'ament_cmake'
+[8.067s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike/ros2_can_test/src/zlac8015d'
+[8.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/ros2socketcan_bridge': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/ros2socketcan_bridge -- -j4 -l4
+[8.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/zlac8015d': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/zlac8015d -- -j4 -l4
+[8.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/ros2socketcan_bridge' returned '0': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/ros2socketcan_bridge -- -j4 -l4
+[8.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/ros2socketcan_bridge': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/ros2socketcan_bridge
+[8.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2socketcan_bridge)
+[8.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/ros2socketcan_bridge' returned '0': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/ros2socketcan_bridge
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge' for CMake module files
+[8.829s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge' for CMake config files
+[8.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2socketcan_bridge', 'cmake_prefix_path')
+[8.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/hook/cmake_prefix_path.ps1'
+[8.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/hook/cmake_prefix_path.dsv'
+[8.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/hook/cmake_prefix_path.sh'
+[8.884s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/lib'
+[8.884s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/bin'
+[8.885s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/lib/pkgconfig/ros2socketcan_bridge.pc'
+[8.885s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/lib/python3.10/site-packages'
+[8.886s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/bin'
+[8.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.ps1'
+[8.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.dsv'
+[8.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.sh'
+[8.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.bash'
+[8.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.zsh'
+[8.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/colcon-core/packages/ros2socketcan_bridge)
+[9.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2socketcan_bridge)
+[9.207s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge' for CMake module files
+[9.209s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge' for CMake config files
+[9.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2socketcan_bridge', 'cmake_prefix_path')
+[9.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/hook/cmake_prefix_path.ps1'
+[9.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/hook/cmake_prefix_path.dsv'
+[9.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/hook/cmake_prefix_path.sh'
+[9.257s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/lib'
+[9.257s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/bin'
+[9.257s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/lib/pkgconfig/ros2socketcan_bridge.pc'
+[9.258s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/lib/python3.10/site-packages'
+[9.258s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/ros2socketcan_bridge/bin'
+[9.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.ps1'
+[9.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.dsv'
+[9.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.sh'
+[9.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.bash'
+[9.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/ros2socketcan_bridge/package.zsh'
+[9.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/ros2socketcan_bridge/share/colcon-core/packages/ros2socketcan_bridge)
+[24.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/zlac8015d' returned '0': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/zlac8015d -- -j4 -l4
+[24.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/ros2_can_test/build/zlac8015d': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/zlac8015d
+[24.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zlac8015d)
+[24.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/ros2_can_test/build/zlac8015d' returned '0': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/home/mike/ros2_can_test/install/overlord100_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --install /home/mike/ros2_can_test/build/zlac8015d
+[24.610s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d' for CMake module files
+[24.612s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d' for CMake config files
+[24.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('zlac8015d', 'cmake_prefix_path')
+[24.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/hook/cmake_prefix_path.ps1'
+[24.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/hook/cmake_prefix_path.dsv'
+[24.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/hook/cmake_prefix_path.sh'
+[24.648s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/lib'
+[24.648s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/bin'
+[24.648s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/lib/pkgconfig/zlac8015d.pc'
+[24.649s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/lib/python3.10/site-packages'
+[24.649s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/bin'
+[24.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.ps1'
+[24.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.dsv'
+[24.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.sh'
+[24.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.bash'
+[24.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.zsh'
+[24.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/zlac8015d/share/colcon-core/packages/zlac8015d)
+[24.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zlac8015d)
+[24.858s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d' for CMake module files
+[24.858s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d' for CMake config files
+[24.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('zlac8015d', 'cmake_prefix_path')
+[24.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/hook/cmake_prefix_path.ps1'
+[24.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/hook/cmake_prefix_path.dsv'
+[24.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/hook/cmake_prefix_path.sh'
+[24.898s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/lib'
+[24.898s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/bin'
+[24.899s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/lib/pkgconfig/zlac8015d.pc'
+[24.899s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/lib/python3.10/site-packages'
+[24.899s] Level 1:colcon.colcon_core.environment:checking '/home/mike/ros2_can_test/install/zlac8015d/bin'
+[24.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.ps1'
+[24.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.dsv'
+[24.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.sh'
+[24.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.bash'
+[24.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/ros2_can_test/install/zlac8015d/share/zlac8015d/package.zsh'
+[24.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/ros2_can_test/install/zlac8015d/share/colcon-core/packages/zlac8015d)
+[24.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.038s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.039s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.139s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/ros2_can_test/install/local_setup.ps1'
+[25.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mike/ros2_can_test/install/_local_setup_util_ps1.py'
+[25.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/ros2_can_test/install/setup.ps1'
+[25.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/ros2_can_test/install/local_setup.sh'
+[25.227s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mike/ros2_can_test/install/_local_setup_util_sh.py'
+[25.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/ros2_can_test/install/setup.sh'
+[25.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/ros2_can_test/install/local_setup.bash'
+[25.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/ros2_can_test/install/setup.bash'
+[25.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/ros2_can_test/install/local_setup.zsh'
+[25.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/ros2_can_test/install/setup.zsh'

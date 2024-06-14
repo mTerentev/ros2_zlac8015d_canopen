@@ -1,0 +1,22 @@
+[0.226s] Invoking command in '/home/mike/ros2_can_test/build/zlac8015d': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/wheels_data:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/home/mike/ros2_can_test/install/wheels_data/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/zlac8015d -- -j4 -l4
+[0.372s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_driver_node.dir/src/motors_driver_node.cpp.o[0m
+[4.603s] [01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:[m[K In member function ‘[01m[Kcan_msgs::msg::Frame MotorsDriverNode::synchronized_velocity_send_frame(u_int16_t, u_int16_t)[m[K’:
+[4.604s] [01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:54:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+[4.604s]    54 |       [01;31m[Kstd[m[K::array<uint8_t, 8UL> data;
+[4.604s]       |       [01;31m[K^~~[m[K
+[4.604s] [01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:55:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::data[m[K’?
+[4.604s]    55 |       [01;31m[Kdata[m[K[0] = 0x23; //Send request
+[4.604s]       |       [01;31m[K^~~~[m[K
+[4.605s]       |       [32m[Kstd::data[m[K
+[4.605s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.605s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.605s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.605s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.605s]                  from [01m[K/home/mike/ros2_can_test/src/zlac8015d/src/motors_driver_node.cpp:1[m[K:
+[4.606s] [01m[K/usr/include/c++/11/bits/range_access.h:319:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::data[m[K’ declared here
+[4.606s]   319 |     [01;36m[Kdata[m[K(initializer_list<_Tp> __il) noexcept
+[4.606s]       |     [01;36m[K^~~~[m[K
+[8.051s] gmake[2]: *** [CMakeFiles/motors_driver_node.dir/build.make:76: CMakeFiles/motors_driver_node.dir/src/motors_driver_node.cpp.o] Error 1
+[8.051s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_driver_node.dir/all] Error 2
+[8.051s] gmake: *** [Makefile:146: all] Error 2
+[8.059s] Invoked command in '/home/mike/ros2_can_test/build/zlac8015d' returned '2': CMAKE_PREFIX_PATH=/home/mike/ros2_can_test/install/can_msgs:/home/mike/ros2_can_test/install/zlac8015d:/home/mike/ros2_can_test/install/overlord100_msgs:/home/mike/ros2_can_test/install/wheels_data:/home/mike/ros2_can_test/install/ros2socketcan_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mike/ros2_can_test/install/can_msgs/lib:/home/mike/ros2_can_test/install/overlord100_msgs/lib:/home/mike/ros2_can_test/install/wheels_data/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mike/.local/bin/cmake --build /home/mike/ros2_can_test/build/zlac8015d -- -j4 -l4
