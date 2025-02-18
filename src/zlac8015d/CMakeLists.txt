@@ -21,7 +21,9 @@ target_include_directories(motors_driver_node PUBLIC
   $<INSTALL_INTERFACE:include>)
 target_compile_features(motors_driver_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-ament_target_dependencies(motors_driver_node rclcpp can_msgs overlord100_msgs)
+add_executable(encoders_node src/encoders_node.cpp)
+
+ament_target_dependencies(motors_driver_node encoders_node rclcpp can_msgs overlord100_msgs)
 
 install(TARGETS motors_driver_node
   DESTINATION lib/${PROJECT_NAME})
